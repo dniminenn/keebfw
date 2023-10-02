@@ -44,3 +44,10 @@
 
 /* Enable NUM_LOCK_LED_INDEX */
 #define NUM_LOCK_LED_INDEX 37
+
+/* Some custom stuff */
+#define DEBOUNCE 8 // lengthen from 5ms, we switched to asym eager defer per key
+#define LCPO_KEYS KC_LCTL, KC_LSFT, KC_LBRC // [ space cadet
+#define RCPC_KEYS KC_RCTL, KC_RSFT, KC_RBRC // ] space cadet
+#define LAPO_KEYS KC_LALT, KC_TRNS, KC_LBRC // { space cadet
+#define RAPC_KEYS KC_RALT, KC_TRNS, KC_RBRC // } space cadet
